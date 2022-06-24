@@ -1,0 +1,84 @@
+.title {
+    text-align: center;
+}
+
+.main {
+    border: none;
+    width: 50%;
+    margin: auto;
+    background-color: plum;
+    color: aliceblue;
+
+}
+
+#add-item {
+    border: 1px solid black;
+}
+
+.input {
+    height: 4em;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.label {
+    margin: 10px;
+    text-align: center;
+}
+
+#list {
+    flex-direction: column;
+    display: flex;
+}
+
+#list > li { 
+    list-style-type: none;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    border: 3px solid white;
+    width: 80%;
+}
+
+#list div {
+    text-align: center;
+}
+.submit {
+    width: 100%;
+    height: 3em;
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: mediumslateblue;
+    border: none;
+}
+body {
+    background-color: lavenderblush;
+    color: hotpink;
+}
+.listLabel {
+    float: left;
+    margin-left: 1em;
+    margin-top: 1em;
+
+}
+.listButtons {
+    float: right;
+}
+.listButtons button{
+    background-color: aquamarine;
+    border: none;
+    height: 100%;
+    width: 4em;
+    margin: 0%;
+    padding: 1em;
+    border: 2px solid white;
+    
+}
+
+button:hover{
+    opacity: 65%;
+}
